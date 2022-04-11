@@ -85,7 +85,7 @@ function getNextQuestion(){
     // set the count of questions 
     // and set the width progress in 100%
     questionText.innerText = `Question ${counter} of ${MAX_QUESTIONS}`;
-    progress.style.width = `${(counter / MAX_QUESTIONS) * 100}100%`;
+    progress.style.width = `${(counter / MAX_QUESTIONS) * 100}%`;
 
     // random index and bring a random quesion
     // from availableQuestions array
