@@ -77,6 +77,7 @@ function getNextQuestion(){
     
     // go to result.html if finish all questions
     if(availableQuestions.length === 0 || counter > MAX_QUESTIONS){
+        localStorage.setItem("the_score", SCORE);
         return window.location.assign("/result.html");
     }
 
