@@ -14,4 +14,47 @@
 
 
 /* Styling main */
+:root{
+    --main-color: #1D1A1A;
+    --blue-color: #3A5EFF;
+}
 
+body{
+    background-color: var(--main-color);
+}
+
+
+.wrapper{
+    width: 500px;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.btn{
+    background-color: var(--blue-color);
+    width: 260px;
+    padding: 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--main-color);
+    text-align: center;
+    font-size: 1.6rem;
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover{
+    box-shadow: 2px 2px 15px 2px rgb(87, 87, 238);
+    transform: scale(1.05);
+}
