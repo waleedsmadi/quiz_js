@@ -82,9 +82,9 @@ header{
     transform: scale(1.02);
 }
 
-.correct{background-color: var(--green-color);}
+.choises .choise.correct{background-color: var(--green-color);}
 
-.incorrect{background-color: var(--red-color);}
+.choises .choise.incorrect{background-color: var(--red-color);}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
